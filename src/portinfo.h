@@ -1,18 +1,18 @@
 #ifndef _SDS_PORTINFO_H
 #define _SDS_PORTINFO_H
-/* File: C:/workspace2015.4/pynq-mmult/SDDebug/_sds/p0/.cf_work/portinfo.h */
+/* File: C:/Users/tkato/workspace_2016.3/pynq-mmult/Debug/_sds/p0/.cf_work/portinfo.h */
 #ifdef __cplusplus
 extern "C" {
 #endif
 
 struct _p0_swblk_mmult_accel {
   cf_port_send_t cmd_mmult_accel;
-  cf_port_send_t in_A;
-  cf_port_send_t in_B;
-  cf_port_receive_t out_C;
+  cf_port_send_t A;
+  cf_port_send_t B;
+  cf_port_receive_t C;
 };
 
-extern struct _p0_swblk_mmult_accel _p0_swinst_mmult_accel_0;
+extern struct _p0_swblk_mmult_accel _p0_swinst_mmult_accel_1;
 void _p0_cf_framework_open(int);
 void _p0_cf_framework_close(int);
 
